@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #101010;
+    color: rgb(255, 255, 255);
+    height: 6rem;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0; /* Se pega completamente arriba */
+    left: 0;
+    width: 100%; /* Se extiende a todo el ancho */
+    z-index: 1000; /* Asegura que quede por encima del resto del contenido */
+}
+
+/* -------- Lado izquierdo del nav -------- */
+
+
+.nav-1 {
+
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.nav-titulo {
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin-top: 8px;
+
+}
+
+.nav-titulo:hover {
+    color: blueviolet;
+    transition: 1s;
+}
+
+/* -------- Lado derecho del nav -------- */
+
+.nav-img-logo {
+    background-image: url('../../../public/navbar/icono_web.png');
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.nav-img-carrito {
+    background-image: url('../../../public/navbar/icono_carrito.png');
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.nav-img-login {
+    background-image: url('../../../public/navbar/icono_usuario.png');
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.nav-img-lupa {
+    background-image: url('../../../public/navbar/icono_busqueda.png');
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.nav-conf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
